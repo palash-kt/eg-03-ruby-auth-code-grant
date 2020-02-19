@@ -24,10 +24,10 @@ module Eg03RubyAuthCodeGrant
     #         to your Integration Key.
     #
     # NOTE: The terms "client_id" and "Integration key" are synonyms. They refer to the same thing.
-    config.client_id = '{CLIENT_ID}'
-    config.client_secret = '{CLIENT_SECRET}'
-    config.signer_email =  '{USER_EMAIL}'
-    config.signer_name = '{USER_FULLNAME}'
+    config.client_id = '62434d95-0a5a-44f9-ae82-ad9781ebb689'
+    config.client_secret = 'c7e06a58-2eda-47aa-9564-af08a7d49ffb'
+    config.signer_email =  'pbera@kreeti.com'
+    config.signer_name = 'Palash Bera'
     config.authorization_server = 'https://account-d.docusign.com'
     config.allow_silent_authentication = true # a user can be silently authenticated if they have an
                                               # active login session on another tab of the same browser
